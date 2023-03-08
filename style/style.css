@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Long+Cang&display=swap');
+
+@font-face {
+    font-family: "Myriad Web Pro";
+    src: url(../fonts/Myriad.ttf);
+}
+
+@font-face {
+    font-family: "Barabara";
+    src: url(../fonts/BARABARA.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #808080;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navbar .container-fluid a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    position: relative;
+}
+
+.navbar .container-fluid a::after {
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+
+.navbar .container-fluid a:hover:after {
+    width: 100%;
+}
+
+.navbar .container-fluid a:hover {
+    color:red;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    height: 20px;
+    width: 20px;
+}
+
+/* Homepage */
+.Myname h1 {
+    font-family: "Barabara";
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.Myname p, span {
+    font-size: 40px;
+    font-family: "incosolata";
+}
+
+.desc {
+    margin-top: 5px;
+    text-align: justify;
+    width: 100%;   
+}
+
+.short-intro {
+    text-indent: 25px;
+}
+
+.row .col .mt-4 .btn-outline-info {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* .mylogo img {
+    width: 50%;
+} */
+
+
+/* ================ About me ==============*/
+.title h1 {
+    font-family: "Barabara";
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.aboutme-description ul {
+    list-style: none;
+    margin-left: -10%;
+}
+
+.aboutme-description ul li {
+    padding: 2%;
+}
+
+.aboutme-description img {
+    border-radius: 20px;
+}
+
+.about-desc {
+    text-align: justify;
+}
+
+.fa-chevron-right {
+    color: blue;
+}
+
+.btn-outline-primary {
+    margin: 0 0 20px 140px;
+}
+
+
+.skills {
+    background-color: #D3D3D3;
+}
+
+.lang-logo {
+    background-color: white;
+    border-radius: 80%;
+    padding: 20px;
+}
+
+.lang-logo:hover {
+    background-color: #000080;
+}
+
+.lang-desc {
+    text-align: justify;
+}
+
+.lang-title {
+    margin-top: 8px;
+}
