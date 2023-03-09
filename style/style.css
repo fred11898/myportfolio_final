@@ -144,8 +144,27 @@ body {
 
 .lang-desc {
     text-align: justify;
+    margin-bottom: 40px;    
+    align-items: center;
 }
 
 .lang-title {
     margin-top: 8px;
+    margin-bottom: 15px;
 }
+
+.social a {
+    text-decoration: none;
+}
+
+.social a:hover {
+    text-decoration: underline;
+}
+
+fieldset {
+    border: 2px solid red;
+    box-shadow: 5px 5px 5px 5px;
+    width: 400px;
+    height: 300px;
+}
+
