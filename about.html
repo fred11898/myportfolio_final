@@ -27,36 +27,39 @@
 
                 <div class="heading">
 
-                    <div class="mylogo">
-                        <img src="img/logo.png" width="170" height="60" class="d-inline-block align-text-top">
-                    </div>
-
-                    <nav class="navbar navbar-expand-sm">
+                    <nav class="navbar navbar-expand-lg bg-body-white">
                         <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                          <a class="navbar-brand" href="#"><img src="img/logo.png" width="170" height="60" class="d-inline-block align-text-top"></a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                             <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="project.html">Project</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Me</a>
-                            </li>
-                            </ul>
+                          </button>
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="img/logo.png" width="170" height="60" class="d-inline-block align-text-top"></h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="project.html">Project</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="services.html">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Contact Me</a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
                         </div>
-                        </div>
-                    </nav>
+                      </nav>
                 </div>   
 
                 </div>   
@@ -123,7 +126,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col">
-                                            <a href="file/Myresume.pdf" download class="btn btn-outline-primary">Download Resume <i class="fa fa-download"></i></a>
+                                            <a href="file/Myresume.pdf" download class="btn btn-outline-primary" target="_blank">Download Resume <i class="fa fa-download"></i></a>
                                         </div>
                                     </div>
                                    

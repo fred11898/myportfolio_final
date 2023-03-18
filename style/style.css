@@ -27,9 +27,7 @@ body {
 }
 
 .heading {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 /*================================================================================================ 
@@ -184,6 +182,34 @@ fieldset {
 ==================================================================================*/
 
 .projects {
-    height: 300px;
-    width: 500px;
+    position: relative;
 }
+
+.hidden {
+    display: none;
+    position: absolute;
+    top: 190px;
+    left: 90px;
+    background-color: white;
+
+}
+
+.projects .project-image:hover + .hidden {
+    display: block;
+}
+
+/* ==============================================================================
+                        S E R V I C E S
+==================================================================================*/
+
+.carousel .carousel-inner .carousel-item img {
+    width: 100%;
+    height: 90vh;
+    transition: transform 0.3s ease-out;
+} 
+
+.carousel .carousel-inner .carousel-item {
+    width: 100%;
+    margin-top: -40px;
+} 
+

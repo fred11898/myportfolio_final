@@ -1,4 +1,4 @@
-var typed = new Typed(".typed", {
+const typed = new Typed(".typed", {
     strings: ["Web Developer", "Web Designer", "Freelancer"],
     typeSpeed: 100,
     backSpeed: 50,
