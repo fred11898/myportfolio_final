@@ -213,3 +213,39 @@ fieldset {
     margin-top: -40px;
 } 
 
+.myservices {
+    box-shadow: 1px 1px 1px 1px;
+    margin: 0 800px 90px 0px;
+    height: 55vh;
+    width: 62vh;
+    position: relative;
+}
+
+.myservices .services-logo {
+    margin: 20px 0 0 130px;
+    background-color: lavender !important;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+}
+
+.services-logo img {
+    height: 40px;
+    width: 40px;
+    margin: 20px 0 0 20px;
+}
+
+.services-title {
+    position: absolute;
+    left: 90px;
+    top:110px;
+}
+
+.services-desc {
+    position: absolute;
+    top: 160px;
+    left: 30px;
+    text-align: justify;
+    width: 340px;
+}
